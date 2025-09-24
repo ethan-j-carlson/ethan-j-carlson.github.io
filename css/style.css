@@ -1,0 +1,759 @@
+/*https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+html {
+    font-size: 1.11vw;
+}
+
+body {
+    background-color: #ffe9d4;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #001664;
+    background-color: #ffce9d;
+}
+
+h2 {
+    background-color: #ffdab5;
+    color: #001664;
+}
+
+h3 {
+    background-color: #f7d6b5;
+    color: #001664;
+}
+
+h4 {
+    color: #001664;
+}
+
+p, select {
+    font-family: Verdana, sans-serif;
+    color: #121a3b;
+    font-size: 1rem;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+a {
+    font-size: 1rem;
+}
+
+label {
+    font-family: Verdana, sans-serif;
+    color: #0c1742;
+    font-size: 1rem;
+}
+
+p.center {
+    text-align: center;
+}
+
+ul, ol {
+    font-family: Verdana, sans-serif;
+    color: #0c1742;
+    font-size: 1rem;
+    margin-left: 2%;
+    list-style-position: inside;
+}
+
+table.default, td.default, th.default {
+    font-family: Verdana, sans-serif;
+    color: #0c1742;
+    border: 1px solid;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+td.arial, td.noto_sans {
+    color: #0c1742;
+    border: 1px solid;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+table.default {
+    border-collapse: collapse;
+}
+
+td.technical {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0c1742;
+    border: 1px solid;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+a:link {
+    color: #003f64;
+}
+
+a:visited {
+    color: #001664;
+}
+
+a:hover {
+    background-color: #fff460;
+    color:#2f125d;
+}
+
+a:active {
+    color: #fff460;
+    background-color: #2f125d;
+}
+
+#homepage {
+    background-color: #ffe9d4;
+    text-align: center;
+}
+
+#ipa_guide_chart {
+    max-width: 800px;
+}
+
+#ascii_converter {
+    text-align: center;
+}
+
+#converter_intro {
+    text-align: center;
+}
+
+.submit {
+    font-size: 1.25rem;
+    background-color: #f8c38e;
+    color: #001664;
+}
+
+input[type="button"] {
+    margin: 0.3125rem;
+    font-size: 1rem;
+    background-color: #fdc288;
+    color: blue;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(255, 253, 159);
+    color: rgb(68, 0, 255);
+}
+
+img.header_logo {
+    max-width: 100px;
+    height: auto;
+    margin: 0px;
+    float:left;
+}
+
+p.img_footer {
+    font-family: Verdana, sans-serif;
+    color: #0c1742;
+    margin-top: 0px;
+    font-size: 0.625rem;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+p.img_footer a{
+    font-size: 0.625rem;
+}
+
+
+#directory_title {
+    background-color: #ffce9d;
+}
+
+#directory_title_left_image {
+    float: left;
+    max-height: 5rem;
+    margin-right: 0.7%;
+}
+
+#directory_title_right_image {
+    float: right;
+    max-height: 5rem;
+    margin-left: 0.7%;
+}
+
+#directory_title_header {
+    margin-top: 0px;
+    padding-top: 1.5625rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#directory_title_subheader {
+    margin-top: 0px;
+    text-align: center;
+    color: #001664;
+    background-color: #ffce9d;
+    padding-bottom: 0px;
+}
+
+#consonant_table_title {
+    text-align: center;
+    font-size: 1.875rem;
+    margin-left: 8.5%;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    color: #0c1742;
+}
+
+#consonant_table {
+    margin-left: 1.5625rem;
+    margin-bottom: 1.25rem;
+}
+
+#consonant_table th {
+    max-width: 6ch;
+    font-size: 0.75rem;
+    word-wrap: break-word;
+    background-color: #ffc890;
+}
+
+#consonant_table td.corner {
+    background-color: transparent;
+}
+
+#vowel_table_title {
+    text-align: center;
+    font-size: 1.875rem;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    color: #0c1742;
+}
+
+#vowel_table {
+    margin-bottom: 1.25rem;
+    margin-right: 1.5625rem;
+    margin-left: 0px;
+}
+
+#vowel_table td.corner {
+    background-color: transparent;
+}
+
+#vowel_table th {
+    font-size: 1.125rem;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #ffc890;
+}
+
+#vowel_table td.left {
+    max-width: 6ch;
+    font-size: 1.125rem;
+    padding-left: 2px;
+    text-align: right;
+    word-wrap: break-word;
+    background-color: #ffc890;
+}
+
+#other_consonant_table_title {
+    text-align: center;
+    color: #0c1742;
+    font-size: 1.25rem;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+}
+
+#other_consonant_table {
+    margin-bottom: 1.25rem;
+    margin-left: 1.5625rem;
+    margin-right: auto;
+}
+
+#other_consonant_table td.linked{
+    font-size: 1rem;
+}
+
+#other_consonant_table th {
+    font-size: 0.75rem;
+    word-wrap: break-word;
+    background-color: #ffc890;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noto_sans {
+    font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+td.corner {
+    background-color: transparent;
+    max-width: 6ch;
+    font-size: 0.75rem;
+    word-wrap: break-word;
+}
+
+td.possible {
+    text-align: center;
+    background-color: #fff9c9;
+    text-decoration: none;
+    font-size: 1.875rem;
+    padding-bottom: 5px;
+}
+
+td.linked {
+    text-align: center;
+    background-color: #ffecb7;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+td.impossible {
+    text-align: center;
+    background-color: #b1aea5;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding-bottom: 5px;
+}
+
+td.left {
+    text-align: right;
+    padding-left: 2px;
+    background-color: #ffc890;
+    font-size: 1rem;
+}
+
+a.current {
+    color: rgb(46, 0, 46);
+    background-color: rgb(255, 232, 132);
+}
+
+div.header {
+    padding-left:0.5%;
+    margin-bottom: 0.5%;
+    margin-top: auto;
+    background-color: #fcbe80;
+    white-space: nowrap;
+}
+
+div.header a.header_logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+div.main_content {
+    background-color: #ffe9d4;
+    padding: 1px;
+    align-content: center;
+    max-width: 100%;
+}
+
+div.left_section {
+    float: left;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+}
+
+div.right_section {
+    float: right;
+    margin-bottom: 1%;
+}
+
+div.footer {
+    float:left;
+}
+
+td.blank{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 0.3125rem;
+}
+
+a.symbol_link {
+    font-size: 1.875rem;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    margin: 1.25rem;
+}
+
+img.default {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    margin: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*https://stackoverflow.com/questions/2062258/floating-elements-within-a-div-floats-outside-of-div-why*/
+span.clear {
+    clear: both;
+    display: block;
+}
+
+#converter_output {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    white-space: pre-line;
+    border: 1px solid darkgray;
+}
+
+p.copyright_footer {
+    font-size: 0.75rem;
+}
+
+p.copyright_footer a {
+    font-size: 0.75rem;
+}
+
+p.inline_left {
+    display: inline-block;
+    text-align: left;
+}
+
+#ipa_sound {
+    float: left;
+    font-size: 16rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 1%;
+    margin-right: 1.3%;
+    margin-left: 0%;
+    text-decoration: none;
+    background-color: #ffdab5;
+    color: #001664;
+    text-align: center;
+}
+
+#ipa_sound:hover {
+    color: #381f61;
+}
+
+p.info_p {
+    font-size: 1.25rem;
+}
+
+input[type=radio], input[type="checkbox"] {
+    margin-right: 10px;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+div.header_links {
+    display:flex;
+    justify-content: end;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+div.header_links > div {
+    margin-left: 1.5%;
+    white-space: nowrap;
+    margin-right: 0.5%;
+}
+
+div.header_links > div > a{
+    font-size: 1.5rem;
+}
+
+div.search {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div.search label {
+    color:#04114e;
+}
+
+div.search div{
+    margin-right: 0.5%;
+    padding-bottom: 1%;
+}
+
+div.search > label {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.search_choice {
+    order: 1;
+}
+
+#search_text {
+    position: relative;
+}
+
+#search_text_label{
+    position: absolute;
+    bottom:38%;
+    right:110%;
+}
+
+div.search_input {
+    order: 2;
+    margin-left: 4rem;
+    position: relative
+}
+
+div.search_submit {
+    order: 3;
+}
+
+/*
+//https://www.w3schools.com/css/css_tooltip.asp
+*/
+#search_message {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: -50%;
+    width: 200%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    /*https://www.w3schools.com/css/css3_borders.asp*/
+    border-radius: 10%;
+    padding: 0.5em;
+    /*https://stackoverflow.com/questions/41169791/word-break-on-whitespace-pre*/
+    white-space: pre-wrap;
+    display: none;
+}
+
+#converter_text_input_div {
+    margin: auto;
+    width: 90%;
+    height: 20vh;
+    margin-bottom: 1%;
+}
+
+#text_input {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and ((max-width: 900px) or (max-aspect-ratio: 1/1)) {
+    html {
+        font-size: 100%;
+    }
+    
+    h1 {
+        font-size: 2.75rem;
+    } 
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2.1875rem;
+    }
+
+    div.right_section {
+        float: unset;
+    }
+
+    div.left_section {
+        float: unset;
+    }
+
+    table.default, td.default, th.default, td.technical {
+        border: 2px solid;
+    }
+
+    td.possible, td.impossible {
+        font-size: 2.5rem;
+    }
+
+    a.symbol_link {
+        margin-top: 0px;
+        font-size: 2.5rem;
+        text-decoration: none;
+    }
+
+    div.header{
+        padding-bottom: 0px;
+    }
+
+    #consonant_table, #vowel_table, #other_consonant_table {
+        margin-bottom: 1.25rem;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #consonant_table_title {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #vowel_table_title {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #other_consonant_table_title {
+        text-align: center;
+        font-size: 1.875rem;
+        margin-left: 2.5rem;
+    }
+
+    #other_consonant_table th {
+        font-size: 1.25rem;
+    }
+
+    #consonant_table th {
+        font-size: 1.25rem;
+    }
+
+    #other_consonant_table td.linked{
+        font-size: 1.25rem;
+    }
+
+    td.left {
+        font-size: 1.25rem;
+    }
+    
+    div.right_section {
+        float: unset;
+    }
+
+    div.left_section {
+        float: unset;
+    }
+
+    div.header {
+        text-align: left;
+    }
+    
+    div.header a{
+        float: none;
+        display: inline-block;
+        text-align: left;
+        font-size: 1.75rem;
+        margin-top: 4%;
+    }
+
+    div.header_links > div > a{
+        font-size: 2rem;
+    }
+
+    ol, ul, p, td, th, textarea, label, a, div, select{
+        font-size: 1.5625rem;
+    }
+
+    a {
+        word-wrap: break-word;
+    }
+
+    p.copyright_footer {
+        font-size: 1rem;
+    }
+
+    p.copyright_footer a {
+        font-size: 1rem;
+    }
+
+    p.img_footer {
+        margin-top: 0px;
+        font-size: 0.75rem;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    p.img_footer a{
+        font-size: 0.75rem;
+    }
+
+    table {
+        overflow-x: scroll;
+    }
+
+    #converter_output {
+        font-size: 1.875rem;
+    }
+
+    input[type=button] {
+        font-size: 1.5625rem;
+    }
+
+    .submit {
+        font-size: 1.875rem;
+    }
+    
+    /*https://stackoverflow.com/questions/4920281/how-to-change-the-size-of-the-radio-button-using-css*/
+    input[type=radio] {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 10px;
+    }
+
+    input[type="checkbox"] {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    p.info_p {
+        font-size: 1.875rem;
+    }
+
+    #ipa_sound {
+        font-size: 24rem;
+    }
+
+    #search_choice_label {
+        display: none;
+    }
+
+    #search_message {
+        top: 100%;
+        left: -125%;
+        width: 300%;
+    }
+
+    #search_text_label{
+        position: static;
+        bottom:unset;
+        right:unset;
+    }
+
+    div.search_input {
+        order: 2;
+        margin-left: 0.5rem;
+        position: relative
+    }
+
+    #ipa_guide_chart {
+        max-width: unset;
+        width: 97%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    div.header{
+        overflow-x: scroll;
+    }
+}
